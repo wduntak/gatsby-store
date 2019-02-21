@@ -4,12 +4,12 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const SuccessPage = () => (
+const CancelPage = () => (
   <Layout>
     <SEO title="Page two" />
-    <h1>You've bought a husky!</h1>
+    <h1>You're purchase was cancelled. Sad husky.</h1>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 
-export default SuccessPage
+export default CancelPage
